@@ -1,0 +1,19 @@
+{
+    "macosx": {
+        "awscloudformation": {
+            "AuthRoleName": "penguin-macosx-20190524064818-authRole",
+            "UnauthRoleArn": "arn:aws:iam::275557231731:role/penguin-macosx-20190524064818-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::275557231731:role/penguin-macosx-20190524064818-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "penguin-macosx-20190524064818-deployment",
+            "UnauthRoleName": "penguin-macosx-20190524064818-unauthRole",
+            "StackName": "penguin-macosx-20190524064818",
+            "StackId": "arn:aws:cloudformation:us-east-1:275557231731:stack/penguin-macosx-20190524064818/7158f570-7e11-11e9-b128-127a71eef55e"
+        },
+        "categories": {
+            "auth": {
+                "cognito9b679830": {}
+            }
+        }
+    }
+}
