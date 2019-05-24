@@ -33,10 +33,10 @@ class App extends Component {
           <h1 className="App-title">Welcome to ChatBot Demo</h1>
         </header>
         <ChatBot
-          title="My Bot"
+          title="Penguin WorkBot"
           theme={myTheme}
-          botName="BookTrip_macosx"
-          welcomeMessage="Welcome, how can I help you today?"
+          botName="PenguinWorkBot"
+          welcomeMessage="Welcome to Penguin WorkBot, please enter your name to start."
           onComplete={this.handleComplete.bind(this)}
           clearOnComplete={true}
           conversationModeOn={false}

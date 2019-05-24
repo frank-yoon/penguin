@@ -16,6 +16,16 @@
 			"service": "Lex",
 			"providerPlugin": "awscloudformation",
 			"build": true
+		},
+		"lexcebdad02": {
+			"service": "Lex",
+			"providerPlugin": "awscloudformation",
+			"build": true
+		},
+		"lexcecf74c4": {
+			"service": "Lex",
+			"providerPlugin": "awscloudformation",
+			"build": true
 		}
 	}
 }

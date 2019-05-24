@@ -1,0 +1,77 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "penguin-garber-20190524101732-authRole",
+            "UnauthRoleArn": "arn:aws:iam::827978678406:role/penguin-garber-20190524101732-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::827978678406:role/penguin-garber-20190524101732-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "penguin-garber-20190524101732-deployment",
+            "UnauthRoleName": "penguin-garber-20190524101732-unauthRole",
+            "StackName": "penguin-garber-20190524101732",
+            "StackId": "arn:aws:cloudformation:us-west-2:827978678406:stack/penguin-garber-20190524101732/abdeede0-7e2e-11e9-8326-06899a6da890"
+        }
+    },
+    "hosting": {
+        "S3AndCloudFront": {
+            "service": "S3AndCloudFront",
+            "providerPlugin": "awscloudformation",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/penguin-garber-20190524101732-deployment/amplify-cfn-templates/hosting/template.json",
+                "logicalId": "hostingS3AndCloudFront"
+            },
+            "lastPushTimeStamp": "2019-05-24T17:24:49.141Z"
+        }
+    },
+    "auth": {
+        "cognito9b679830": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/penguin-garber-20190524101732-deployment/amplify-cfn-templates/auth/cognito9b679830-cloudformation-template.yml",
+                "logicalId": "authcognito9b679830"
+            },
+            "lastPushTimeStamp": "2019-05-24T17:24:49.097Z"
+        }
+    },
+    "interactions": {
+        "lex1d5a413d": {
+            "service": "Lex",
+            "providerPlugin": "awscloudformation",
+            "build": true,
+            "lastBuildTimeStamp": "2019-05-24T14:23:33.123Z",
+            "lastPackageTimeStamp": "2019-05-24T14:23:37.588Z",
+            "distZipFilename": "lex1d5a413d-1558707813-latest-build.zip",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/penguin-garber-20190524101732-deployment/amplify-cfn-templates/interactions/lex1d5a413d-cloudformation-template.json",
+                "logicalId": "interactionslex1d5a413d"
+            },
+            "lastPushTimeStamp": "2019-05-24T17:24:50.014Z"
+        },
+        "lexcebdad02": {
+            "service": "Lex",
+            "providerPlugin": "awscloudformation",
+            "build": true,
+            "lastBuildTimeStamp": "2019-05-24T14:23:37.507Z",
+            "lastPackageTimeStamp": "2019-05-24T14:23:37.682Z",
+            "distZipFilename": "lexcebdad02-1558707817-latest-build.zip",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/penguin-garber-20190524101732-deployment/amplify-cfn-templates/interactions/lexcebdad02-cloudformation-template.json",
+                "logicalId": "interactionslexcebdad02"
+            },
+            "lastPushTimeStamp": "2019-05-24T17:24:49.123Z"
+        },
+        "lexcecf74c4": {
+            "service": "Lex",
+            "providerPlugin": "awscloudformation",
+            "build": true,
+            "lastBuildTimeStamp": "2019-05-24T14:35:52.675Z",
+            "lastPackageTimeStamp": "2019-05-24T14:35:52.814Z",
+            "distZipFilename": "lexcecf74c4-1558708552-latest-build.zip",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/penguin-garber-20190524101732-deployment/amplify-cfn-templates/interactions/lexcecf74c4-cloudformation-template.json",
+                "logicalId": "interactionslexcecf74c4"
+            },
+            "lastPushTimeStamp": "2019-05-24T17:24:49.837Z"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "macosx": {
+        "configLevel": "project",
+        "useProfile": true,
+        "profileName": "default"
+    },
+    "garber": {
+        "configLevel": "project",
+        "useProfile": true,
+        "profileName": "default"
+    }
+}
