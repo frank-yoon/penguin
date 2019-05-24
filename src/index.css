@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+h1 {
+	text-align: center;
+}
+
+.amplify-form-section {
+	width: 100% !important;
+	max-width: 400px;
+}
